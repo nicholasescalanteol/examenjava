@@ -1,0 +1,27 @@
+Indicaciones para la evaluación final y obtención del certificado de aprobación. Fecha máxima de presentación 17 DE NOVIMBRE 2024
+EVALUACION
+1. Crear un backend enfocado a servicios REST que ofrezca solución al siguiente escenario:
+Se desea llevar el control de registros de los clientes de una barbería,para el cual se debe tener almacenado los datos de los clientes, de los barberos y las atenciones realizadas
+Se pide crear los servicios REST para
+CRUD Clientes
+o Id: integer
+o Nombres: string o Apellidos: string
+o DNI: string
+o Edad: int
+CRUD Barbero
+o Id: integer
+o Nombre: string
+o Apellidos: string
+o Años de experiencia: integer
+o Estado: boolean
+Registrar Atenciones
+• Comprende la siguiente información. Fecha de Atencion: LocalDateTime Cliente: Class
+Barbero: Class
+Tipo de corte: String
+Estado: boolean
+Consideraciones:
+Usar cualquier base de datos de su preferencia
+Control de excepciones globales (GlobalErrorHandler.java)
+Validar los request de los servicios con @Valid según su preferencia
+2. La forma de presentar el trabajo es subir su código (CONSIDERAR EL .gitignore para no subir código innecesario) en un repositorio públicos en su cuenta de bitbucket, github, etc, para el back-end.
+Enviar a cursos@mitocodenetwork.com
